@@ -19,13 +19,14 @@
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="css/magnific-popup.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/lunar.css" />
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
 </head>
 
-<body class="skew">
+<body>
    
     
     <div class="wrapper">
@@ -62,7 +63,7 @@
                             <li><a data-target=".navbar-collapse.show" class="link-menu" href="#features">Features</a></li>
                             <li><a data-target=".navbar-collapse.show" class="link-menu" href="#pricing"> Pricing</a></li>
                             <li><a data-target=".navbar-collapse.show" class="link-menu" href="#contact"> Contact</a></li>
-                            <li><a class="headlogin" data-target=".navbar-collapse.show" class="link-menu" href="#blog"> Login</a></li>
+                            <li><a class="headlogin" data-toggle="modal" data-target="#demoModal"> Login</a></li>
                             <li><a class="headstart" data-target=".navbar-collapse.show" class="link-menu" href="#mainbanner"> Get Started</a></li>
                         </ul>
                     </div>
@@ -72,6 +73,8 @@
             </div>
             </div>
         </header>
+
+
 		
         <div class="mainbanner_starts" id="mainbanner">
             <div class="banner">
@@ -114,7 +117,7 @@
                             </div>
 
                             <div class="trial_button">
-                                <a href="#">Start 30 Days Trial</a>
+                                <a href="#pricing">Start 30 Days Trial</a>
                             </div>
                         </div>
                         <div class="col-lg-6 col-12 imagebanner">
@@ -186,7 +189,7 @@
            </div>
        </div>
 
-       <div class="achieve pt-0 pb-0">
+       <div class="achieve mobile_achieve pt-0">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-12">
@@ -829,8 +832,6 @@
         
         </div>
 
-        
-
         <div class="footer">
             <div class="container">
                 <div class="row">
@@ -870,7 +871,7 @@
                     </div>
                     <div class="col-lg-3">
                         <div class="footertwo">
-                            <div class="footer_head">
+                         <div class="footer_head">
                                 <h5>Contact</h5>
                             </div>
                             <div class="footer_links">
@@ -890,9 +891,11 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div8
             </div>
         </div>
+
+        
 
         <div class="lastfooter container">
             <div class="lastleft">
@@ -911,7 +914,111 @@
         </div>
         <!-- Back To Top Ends -->
     </div>
-    </div>
+        </div>
+
+
+                <!-- Modal -->
+            <div class="modal fade "   id="demoModal"  tabindex="-1" role="dialog"
+                aria-labelledby="demoModal" aria-hidden="true">
+               <div class="modal-dialog  modal-lg modal-dialog-centered " role="document">
+                   <div class="modal-content">
+                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                           <span aria-hidden="true">&times;</span>
+                       </button>
+                      <div class="container-fluid" style="padding-left: 0; padding-right: 0;">
+                          <div class="row no-gutters">
+                              <div class="col-md-6 bg-img d-none d-sm-flex align-items-end" style="background-image: url('img/pexels-photo-3183197.jpeg')"; >
+                              </div>
+                              <div class="col-md-6 ">
+                                <div class="login_heads">
+                                  <img src="img/logo2.png">
+                                </div>
+                                  <form class="login_form">
+                                      <div class="form-row">
+                                          <div class="form-group col-md-12">
+                                            
+                                              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                                          </div>
+                                          <div class="form-group col-md-12">
+                                           
+                                              <input type="text" class="form-control" id="inputPassword4" placeholder="Password">
+                                          </div>
+                                      </div>
+
+                                      <div class="formcheckbox"> 
+                                      <div class="form-group">
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="checkbox" id="gridCheck">
+                                          <label class="form-check-label" for="gridCheck">
+                                            Remember Me
+                                          </label>
+                                        </div>
+                                      </div>
+                                      <div class="forgetpw">
+                                          <a><i class="fa fa-lock"></i> Forgot Password?</a>
+                                      </div>
+                                      </div>
+                                      <button type="submit" class="btn btn-cta btn-cstm-success"  data-dismiss="modal" aria-label="Close">Login</button>
+
+                                      <div class="newuser">
+                                          <p>Don't have an account? <a href="" data-toggle="modal" data-target="#newdemoModal" id="newdemomodal">Register</a>
+                                        </p>
+                                      </div>
+
+
+                                  </form>
+
+                                  <form class="signup_form">
+                                    <div class="form-row">
+                                        <div class="form-group col-md-12">
+                                          
+                                            <input type="text" class="form-control" id="inputEmail4" placeholder="Full Name">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                          
+                                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                         
+                                            <input type="text" class="form-control" id="inputPassword4" placeholder="Phone Number">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                           
+                                            <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                           
+                                            <input type="password" class="form-control" id="inputPassword4" placeholder="Confirm Password">
+                                        </div>
+                                    </div>
+
+                                   
+                                    <button type="submit" class="btn btn-cta btn-cstm-success"  data-dismiss="modal" aria-label="Close">Register</button>
+
+                                    <div class="newuser">
+                                        <p>Existing User? <a href="" data-toggle="modal" data-target="#newdemoModal" id="nextdemomodal">Login</a>
+                                      </p>
+                                    </div>
+
+
+                                </form>
+
+                              </div>
+                          </div>
+                      </div>
+            
+            
+                   </div>
+               </div>
+            </div>
+            <!-- Modal Ends -->
+
+            <div class='scrolltop float-right'>
+                <i class='fa fa-chevron-up' onclick='topFunction()' id='mybtn'></i>
+            </div>
+
+
+
 
 
     <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
@@ -921,6 +1028,7 @@
     <script type="text/javascript" src="js/plugins/jquery.bxslider.min.js"></script>
     <script type="text/javascript" src="js/plugins/jquery.magnific-popup.min.js"></script>
     <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js/lunar.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     
@@ -933,6 +1041,20 @@
             el: ".swiper-pagination",
             clickable: true,
         },
+    });
+  </script>
+
+  <script>
+    $("#newdemomodal").click(function(){
+    $(".login_form").hide(200);
+    $(".signup_form").show(200);
+    });
+  </script>
+
+<script>
+    $("#nextdemomodal").click(function(){
+    $(".login_form").show(200);
+    $(".signup_form").hide(200);
     });
   </script>
 
@@ -961,6 +1083,27 @@
         } // End if
       });
     });
+</script>
+
+<script>
+    $(document).ready(function () {
+
+      $(window).scroll(function(){
+          if($(this).scrollTop() > 200){
+            $('#mybtn').fadeIn();
+          }
+          else{
+            $('#mybtn').fadeOut();
+          }
+        });
+      
+      
+          $('#mybtn').click(function(){
+                $('html,body').animate({scrollTop: 0}, 1000)
+      
+          })
+    });
+
     </script>
 
 
