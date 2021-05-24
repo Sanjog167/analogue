@@ -1,6 +1,14 @@
 (function($) {
 	
     "use strict";
+
+$(window).on('load', function(){
+    "use strict";
+    /*=========================================================================
+            Preloader
+    =========================================================================*/
+    $(".preloader").delay(1).fadeOut('slow');
+});
 		
 
 			
@@ -30,8 +38,6 @@
 			}, 800);
 			return false;
 		});
-
-
 	
 
 		// BUTTON ICON ANIMATION

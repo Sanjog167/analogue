@@ -24,13 +24,30 @@
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
    
     
     <div class="wrapper">
-     
+         <div class="preloader" id="loading">
+            <img src="img/unnamed.png" style="opacity: 0.05; position: absolute;">
+            <div class="proloader_content">
+              <h3>Physical Office</h3>
+              <p class="canbe">can be <span class="big">Big</span> sometimes and also way expensive.</p>
+              <div class="flexanime">
+                  <div class="anime">
+                      <span>Excluding handling the <span class="big">team</span>.</span>
+                  </div>
+                  <div class="anime2">
+                      <span>So, that's why we made</span>
+                  </div>
+              </div>
+             
+            </div>
+            <img src="img/BG.png" style="width: 100%;">
+        </div>
         <!-- Header Starts -->
         <header id="header" class="header">
             <div class="container"> 
@@ -58,14 +75,18 @@
 					<!-- Hamburger Icon Ends -->
 					<!-- Navigation Menu Starts -->
                     <div class="collapse navbar-collapse nav-menu" id="navbarSupportedContent">
-                        <ul class="nav-menu-inner">
-                            <li><a data-target=".navbar-collapse.show" class="link-menu" href="#mainbanner"> home</a></li>
+                        <ul class="nav-menu-inner" style="margin: auto;">
                             <li><a data-target=".navbar-collapse.show" class="link-menu" href="#features">Features</a></li>
+                            <li><a data-target=".navbar-collapse.show" class="link-menu" href="#features">Comparison</a></li>
                             <li><a data-target=".navbar-collapse.show" class="link-menu" href="#pricing"> Pricing</a></li>
+                            <li><a data-target=".navbar-collapse.show" class="link-menu" href="#features">Ask <span>Leo!</span></a></li>
                             <li><a data-target=".navbar-collapse.show" class="link-menu" href="#contact"> Contact</a></li>
-                            <li><a class="headlogin" data-toggle="modal" data-target="#demoModal"> Login</a></li>
-                            <li><a class="headstart" data-target=".navbar-collapse.show" class="link-menu" href="#mainbanner"> Get Started</a></li>
                         </ul>
+                    </div>
+
+                    <div class="test">
+                        <li><a class="headlogin" data-toggle="modal" data-target="#demoModal"> Login</a></li>
+                        <li><a class="headstart" data-target=".navbar-collapse.show" class="link-menu" href="#mainbanner"> Get Started</a></li>
                     </div>
 					<!-- Navigation Menu Ends -->
                 </nav>
@@ -76,761 +97,59 @@
 
 
 		
-        <div class="mainbanner_starts" id="mainbanner">
+        <div class="mainbanner_starts" id="mainbanner">    
             <div class="banner">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 col-12">
-                            <h3>Empower your Squad</h3>
-
-                            <div class="content_1">
-                                <p>
-                                    LeoSquad is your modern-day project management system that assists you to effective management and supervision over your projects and tasks. Engineered for excellence, not only it assists you with the task and project management but also helps you overview their progress status. It is an innovative way to stay updated with your team while keeping track of their progress. Also, keeping your payments & expenses, checked and balanced has never been this simplified.  
-                                </p>
-                                <p>
-                                    Increase your productivity and stay organized with LeoSquad.
-                                </p>
-                                <p class="br">
-                                    Through LeoSquad you can: 
-                                </p>
-                           
-                            </div>
-
-                            <div class="content_check">
-                                <div class="check1">
-                                    <i class="fa fa-check-square"></i>
-                                    <p>Enroll company's employees</p>
-                                </div>
-                                <div class="check1">
-                                    <i class="fa fa-check-square"></i>
-                                    <p>Track their attendance and manage employee's leave</p>
-                                </div>
-                                <div class="check1">
-                                    <i class="fa fa-check-square"></i>
-                                    <p>Create Invoice & Estimates</p>
-                                </div>
-                                <div class="check1">
-                                    <i class="fa fa-check-square"></i>
-                                    <p>Track time and expenses</p>
-                                </div>
-
-                            </div>
-
-                            <div class="trial_button">
-                                <a href="#pricing">Start 30 Days Trial</a>
-                            </div>
+                    <div class="first_content">
+                        <h3 class="firstword" data-aos="fade-left">Physical Office</h3>
+                        <div class="mac_img">
+                            <img src="img/Group 112.svg" class="dots">
+                        <img src="img/Macbook.png" class="realmac" data-aos="zoom-out" data-aos-duration="500">
+                        <div class="smallimgs">
+                            <img src="img/Group 86.svg" class="payroll">
+                            <img src="img/Group 110.png" class="hrmanager">
+                            <img src="img/Group 111.png" class="uiux">
+                            <img src="img/monica-dahiya-zANv7V53KQw-unsplash.png" class="monica">
                         </div>
-                        <div class="col-lg-6 col-12 imagebanner">
-                            <img src="img/banner1.png">
                         </div>
+                        <h3 class="secword" data-aos="fade-right" data-aos-duration="500">Turned Virtually</h3>
                     </div>
-                </div>
-            </div>
-        </div>
-
-       <div class="client_section">
-           <div class="client_trust">
-               <h4>Trusted by the world's best team</h4>
-           </div>
-           <div class="client_head">
-               <h3>More Than 100 People Use Our Product.</h3>
-           </div>
-
-           <div class="client_images">
-               <div class="image1">
-                <img src="img/one.png">
-               </div>
-               <div class="image1">
-                <img src="img/two.png">
-               </div>
-               <div class="image1">
-                <img src="img/three.png">
-               </div>
-              
-
-           </div>
-
-       </div>
-
-       <div class="achieve">
-           <div class="container">
-               <div class="row">
-                   <div class="col-lg-6 col-12">
-                       <div class="achieve_head">
-                           <h3>Achieve your business Need</h3>
+                    <div class="hidden_content">
+                       <div class="hidden_content_h3">
+                           <h3>Welcome to the era of virtual offices.</h3>
                        </div>
-                       <div class="achieve_content">
-                           <p>
-                            It is essential for you to have a software that manages your projects. And LeoSquad assists you with that. You can easily manage your software and your squad through a single system resulting in empowered teams and satisfied clients.
-                           </p>
+                       <div class="hidden_content_para">
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolorem recusandae natus, fugit nisi deleniti fugiat nihil, quasi ipsam perspiciatis sunt doloribus eveniet iste. Aliquid.</p>
+                       </div>
+                       <div class="hidden_btns">
+                           <div class="btn1">
+                               <a href="#">
+                                   <i class="fa fa-arrow-right"></i>
+                                   <h4>Get Started</h4>
+                               </a>
+                           </div>
+                           <div class="btn1">
+                            <a href="#">
+                                <i class="fa fa-play-circle"></i>
+                                <h4>View Demo</h4>
+                            </a>
                         </div>
-                        <div class="achieve_list">
-                            <div class="list1">
-                                <i class="fa fa-check-square"></i>
-                                <p>Track all your projects in the simplest way.
-                                </p>
-                            </div>
-                            <div class="list1">
-                                <i class="fa fa-check-square"></i>
-                                <p>Assign tasks to project members and track the project status with ease.
-                                </p>
-                            </div>
-                            <div class="list1">
-                                <i class="fa fa-check-square"></i>
-                                <p>Assign members to the projects and keep the track of the progress.
-                                </p>
-                            </div>
-                        </div>
-                   </div>
-                   <div class="col-lg-6 col-12">
-                       <img src="img/achieve.png">
-                   </div>
-               </div>
-           </div>
-       </div>
-
-       <div class="achieve mobile_achieve pt-0">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-12">
-                    <img src="img/monitor.png">
-                </div>
-                <div class="col-lg-6 col-12">
-                    <div class="achieve_head">
-                        <h3>Monitor Your Workflow</h3>
-                    </div>
-                    <div class="achieve_content">
-                        <p>
-                            Want to stay updated about what’s working for your business? Analyze it through report section.
-
-
-                        </p>
-                     </div>
-                     <div class="achieve_list">
-                         <div class="list1">
-                             <i class="fa fa-check-square"></i>
-                             <p>Check and track your spending and income.
-                             </p>
-                         </div>
-                         <div class="list1">
-                             <i class="fa fa-check-square"></i>
-                             <p>Monitor the task status of all the task at hand.
-                             </p>
-                         </div>
-                         <div class="list1">
-                             <i class="fa fa-check-square"></i>
-                             <p>View Ticket report to check your Open vs Closed tickets.
-                             </p>
-                         </div>
-                     </div>
-                </div>
-            </div>
-        </div>
-       </div>
-
-        <div class="achieve">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-12">
-                        <div class="achieve_head">
-                            <h3>Support tickets management</h3>
-                        </div>
-                        <div class="achieve_content">
-                            <p>
-                                Are you facing issues with the software and feel lost? Don’t be. Because if you are facing any issue regarding your software you can raise a ticket and LeoSquad will fix those errors for you.
-
-
-                            </p>
-                        </div>
-                        <div class="achieve_list">
-                            <div class="list1">
-                                <i class="fa fa-check-square" style="margin-top: -26px;"></i>
-                                <p>Admin has authority to assign the tickets to respective department agents.
-                                </p>
-                            </div>
-                        
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-12">
-                        <img src="img/ticket.png">
+                       </div>
+                       <div class="trusted_by">
+                           <p>Trusted by teams at</p>
+                       </div>
+                       <div class="trust_images">
+                           <img src="img/fb.png">
+                           <img src="img/fb.png">
+                           <img src="img/fb.png">
+                           <img src="img/fb.png">
+                       </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="modern">
-            <div class="container"> 
-            <div class="modern-head">
-                <h3>A modern-day communication gateway for your work squad.
-                </h3>
-            </div>
-            <div class="modern-para">
-                <p>
-                    A power-packed features that enhances your team management system.
-                </p>
-            </div>
-
-            <div class="modern_lists">
-                <div class="rows">
-                  
-                        <div class="modern1">
-                            <div class="modern1_icon">
-                                <i class="fa fa-desktop"></i>
-                            </div>
-                            <div class="modern1_title">
-                                <h4>Responsive</h4>
-                            </div>
-                            <div class="modern1_para">
-                                <p>
-                                    Get access from any devices: desktop, tablet or mobile.
-                                </p>
-                            </div>
-                        </div>
-                  
-                  
-                        <div class="modern1">
-                            <div class="modern1_icon">
-                                <i class="fa fa-wrench"></i>
-                            </div>
-                            <div class="modern1_title">
-                                <h4>Customizable</h4>
-                            </div>
-                            <div class="modern1_para">
-                                <p>
-                                    Customize your code and change it as per your requirement.
-                                </p>
-                            </div>
-                        </div>
-                   
-                  
-                        <div class="modern1">
-                            <div class="modern1_icon">
-                                <i class="fa fa-cubes"></i>
-                            </div>
-                            <div class="modern1_title">
-                                <h4>UI Elements</h4>
-                            </div>
-                            <div class="modern1_para">
-                                <p>
-                                    UI elements are the necessary and essential elements for developing your website. 
-                                </p>
-                            </div>
-                        </div>
-                   
-                </div>
-            </div>
-        </div>
-
-        </div>
-
-        <div class="testimonials">
-         
-                <div class="test_head">
-                    <h3>Task Management System Loved & Trusted By Corporate Houses & Their Employees
-                    </h3>
-                </div>
-
-                <div class="swiper-container mySwiper">
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide">
-                          <div class="testmain">
-                          <div class="comma">
-                             <img src="img/quotation-marks.svg">
-                          </div>
-                          <div class="test_para">
-                              <p>
-                                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta cumque ipsam, nihil ex et recusandae beatae fugit itaque nostrum, commodi quo quae libero voluptatum. Ea unde sunt ipsam rerum quos?
-                              </p>
-                          </div>
-                          <div class="test_title">
-                              <h4>ScholarKeys</h4>
-                          </div>
-                          <div class="test_rate">
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="testmain">
-                        <div class="comma">
-                           <img src="img/quotation-marks.svg">
-                        </div>
-                        <div class="test_para">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta cumque ipsam, nihil ex et recusandae beatae fugit itaque nostrum, commodi quo quae libero voluptatum. Ea unde sunt ipsam rerum quos?
-                            </p>
-                        </div>
-                        <div class="test_title">
-                            <h4>ScholarKeys</h4>
-                        </div>
-                        <div class="test_rate">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="testmain">
-                        <div class="comma">
-                           <img src="img/quotation-marks.svg">
-                        </div>
-                        <div class="test_para">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta cumque ipsam, nihil ex et recusandae beatae fugit itaque nostrum, commodi quo quae libero voluptatum. Ea unde sunt ipsam rerum quos?
-                            </p>
-                        </div>
-                        <div class="test_title">
-                            <h4>ScholarKeys</h4>
-                        </div>
-                        <div class="test_rate">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
-                      </div>
-                    </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-
-
-
-       
-        </div>
-
-        <div class="task">
-            <div class="container">
-                <div class="taskflex">
-                    <div class="task1">
-                        <h3>Task Management Has Never Been Easier.
-                        </h3>
-                        <p>
-                            Still have confusion about how LeoSquad works? Don’t worry our squad of experts will assist on ways to streamline LeoSquad the way your team works.
-                        </p>
-                    </div>
-                    <div class="task2">
-                        <a href="#">Get Started</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modern taskmodern">
-            <div class="container"> 
-            <div class="modern-head">
-                <h3>Task Management
-                </h3>
-            </div>
-            <div class="modern-para">
-                <p>
-                    A single stop solution for all your task management needs. Manage your projects and your staff through a single system. Create an empowered team, gain customer satisfaction and increase the profitability.
-                </p>
-            </div>
-
-            <div class="modern_lists">
-                <div class="rows">
-                  
-                        <div class="modern1">
-                            <div class="modern1_icon">
-                                <i class="fa fa-desktop"></i>
-                            </div>
-                            <div class="modern1_title">
-                                <h4>Projects Tracking</h4>
-                            </div>
-                            <div class="modern1_para">
-                                <p>
-                                    Monitor all your tasks and assignments with ease.
-                                </p>
-                            </div>
-                        </div>
-                  
-                  
-                        <div class="modern1">
-                            <div class="modern1_icon">
-                                <i class="fa fa-wrench"></i>
-                            </div>
-                            <div class="modern1_title">
-                                <h4>Assign Tasks</h4>
-                            </div>
-                            <div class="modern1_para">
-                                <p>
-                                    Assign tasks to your employees and keep track of its status.
-                                </p>
-                            </div>
-                        </div>
-                   
-                  
-                        <div class="modern1">
-                            <div class="modern1_icon">
-                                <i class="fa fa-cubes"></i>
-                            </div>
-                            <div class="modern1_title">
-                                <h4>Add Members</h4>
-                            </div>
-                            <div class="modern1_para">
-                                <p>
-                                    Assign members to your projects and monitor their progress easily.
-                                </p>
-                            </div>
-                        </div>
-                   
-                </div>
-            </div>
-
-            <div class="modern-head">
-                <h3>Manages All Your Bills
-
-                </h3>
-            </div>
-            <div class="modern-para">
-                <p>
-                    Managing your automated bills and keeping track of your invoice and income has been made easier through LeoSquad.
-
-
-                </p>
-            </div>
-
-            <div class="modern_lists">
-                <div class="rows">
-                  
-                        <div class="modern1">
-                            <div class="modern1_icon">
-                                <i class="fa fa-desktop"></i>
-                            </div>
-                            <div class="modern1_title">
-                                <h4>Estimates</h4>
-                            </div>
-                            <div class="modern1_para">
-                                <p>
-                                    Create cost estimation of your project and send it to your clients directly through LeoSquad.
-                                </p>
-                            </div>
-                        </div>
-                  
-                  
-                        <div class="modern1">
-                            <div class="modern1_icon">
-                                <i class="fa fa-wrench"></i>
-                            </div>
-                            <div class="modern1_title">
-                                <h4>Invoices</h4>
-                            </div>
-                            <div class="modern1_para">
-                                <p>
-                                    It doesn’t matter how simple and professional your invoices is, because you can easily create and download Invoice from LeoSquad.
-                                </p>
-                            </div>
-                        </div>
-                   
-                  
-                        <div class="modern1">
-                            <div class="modern1_icon">
-                                <i class="fa fa-cubes"></i>
-                            </div>
-                            <div class="modern1_title">
-                                <h4>Payments</h4>
-                            </div>
-                            <div class="modern1_para">
-                                <p>
-                                    Track client payment and monitor it through the payment section of LeoSquad.
-                                </p>
-                            </div>
-                        </div>
-                   
-                </div>
-            </div>
-
-            <div class="modern-head" id="features">
-                <h3>Upcoming Features
-
-                </h3>
-            </div>
-    
-            <div class="modern_lists">
-                <div class="rows">
-                  
-                        <div class="modern1">
-                          
-                            <div class="modern1_title">
-                                <h4>Asset Management Module</h4>
-                            </div>
-                            <div class="modern1_para">
-                                <p>
-                                    For managing assets of your company.
-                                </p>
-                            </div>
-                        </div>
-                  
-                  
-                        <div class="modern1">
-                         
-                            <div class="modern1_title">
-                                <h4>Payroll Module</h4>
-                            </div>
-                            <div class="modern1_para">
-                                <p>
-                                    This payroll module for LeoSquad enables you to set up payroll components and generate salary slips for the employees.
-                                </p>
-                            </div>
-                        </div>
-                   
-                  
-                        <div class="modern1">
-                          
-                            <div class="modern1_title">
-                                <h4>Subdomin Module</h4>
-                            </div>
-                            <div class="modern1_para">
-                                <p>
-                                    Companies have their own sub-domain
-                                </p>
-                            </div>
-                        </div>
-                   
-                </div>
-            </div>
-        </div>
-
-        </div>
-
-        <div class="pricing" id="pricing">
-            <div class="container">
-
-                <div class="pricingtitle">
-                    <h3>Affordable Pricing</h3>
-                </div>
-
-                <div class="pricingpara">
-                    <p>Leosquad for Teams is a single workspace for your small- to medium-sized company or team.</p>
-                </div>
-
-
-
-                <div class="row no-gutters ">
-                    <div class="col-lg-3 leftpick">
-                        <div class="pricingtop">
-                            <h3>Pick Up Your Plan</h3>
-                        </div>
-                        <div class="pricingcontent">
-                            <li>Max Employees</li>
-                            <li>Clients</li>
-                            <li>Employees</li>
-                            <li>Projects</li>
-                            <li>Attendance</li>
-                            <li>Tasks</li>
-                            <li>Estimates</li>
-                            <li>Invoices</li>
-                            <li>Payments</li>
-                            <li>Time Logs</li>
-                            <li>Tickets</li>
-                            <li>Events</li>
-                            <li>Reports</li>
-                        </div>
-                    </div>
-                    <div class="col-lg-9">
-                        <div class="row no-gutters">
-                            <div class="col-lg-3">
-                                <div class="nineone">
-                                    <h4>Free</h4>
-                                </div>
-                                <div class="ninepricewithmonth"> 
-                                <div class="nineprice">
-                                    <p>NPR</p>
-                                    <span>0</span>/user
-                                </div>
-                                <div class="ninemonth">
-                                    <p>Billed Monthly</p>
-                                </div>
-                                </div>
-                                <div class="pricingcontent">
-                                    <li>20</li>
-                                    <li>20</li>
-                                    <li>20</li>
-                                    <li>20</li>
-                                    <li>20</li>
-                                    <li>20</li>
-                                    <li>20</li>
-                                    <li>20</li>
-                                    <li>20</li>
-                                    <li>20</li>
-                                    <li>20</li>
-                                    <li>20</li>
-                                    <li>20</li>
-                                    <button>Get Started</button>
-                                </div>
-                            </div>
-                            <div class="col-lg-3">
-                                <div class="nineone">
-                                    <h4>Starter</h4>
-                                </div>
-                                <div class="ninepricewithmonth"> 
-                                    <div class="nineprice">
-                                        <p>NPR</p>
-                                        <span>3740</span>/user
-                                    </div>
-                                    <div class="ninemonth">
-                                        <p>Billed Monthly</p>
-                                    </div>
-                                    </div>
-                                <div class="pricingcontent">
-                                    <li>50</li>
-                                    <li>50</li>
-                                    <li>50</li>
-                                    <li>50</li>
-                                    <li>50</li>
-                                    <li>50</li>
-                                    <li>50</li>
-                                    <li>50</li>
-                                    <li>50</li>
-                                    <li>50</li>
-                                    <li>50</li>
-                                    <li>50</li>
-                                    <li>50</li>
-                                    <button>Get Started</button>
-                                </div>
-                            </div>
-                            <div class="col-lg-3">
-                                <div class="nineone">
-                                    <h4>Medium</h4>
-                                </div>
-                                <div class="ninepricewithmonth"> 
-                                    <div class="nineprice">
-                                        <p>NPR</p>
-                                        <span>7480 </span>/user
-                                    </div>
-                                    <div class="ninemonth">
-                                        <p>Billed Monthly</p>
-                                    </div>
-                                    </div>
-                                <div class="pricingcontent">
-                                    <li>100</li>
-                                    <li>100</li>
-                                    <li>100</li>
-                                    <li>100</li>
-                                    <li>100</li>
-                                    <li>100</li>
-                                    <li>100</li>
-                                    <li>100</li>
-                                    <li>100</li>
-                                    <li>100</li>
-                                    <li>100</li>
-                                    <li>100</li>
-                                    <li>100</li>
-                                    <button>Get Started</button>
-                                </div>
-                            </div>
-                            <div class="col-lg-3">
-                                <div class="nineone">
-                                    <h4>Larger</h4>
-                                </div>
-                                <div class="ninepricewithmonth"> 
-                                    <div class="nineprice">
-                                        <p>NPR</p>
-                                        <span>37399 </span>/user
-                                    </div>
-                                    <div class="ninemonth">
-                                        <p>Billed Monthly</p>
-                                    </div>
-                                    </div>
-                                <div class="pricingcontent">
-                                    <li>500</li>
-                                    <li>500</li>
-                                    <li>500</li>
-                                    <li>500</li>
-                                    <li>500</li>
-                                    <li>500</li>
-                                    <li>500</li>
-                                    <li>500</li>
-                                    <li>500</li>
-                                    <li>500</li>
-                                    <li>500</li>
-                                    <li>500</li>
-                                    <li>500</li>
-                                    <button>Get Started</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="plan">
-                    <p>For more than 100 employees, please contact us for Enterprise plan</p>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="contact" id="contact">
-            <div class="contact_top">
-                <img src="img/pexels-photo.jpg">
-                <div class="contact_content">
-                    <div class="contentone">
-                        <div class="contentimagecontent">
-                            <i class="fa fa-home"></i>
-                            <p>Address</p>
-                        </div>
-                        <div class="maincontent">
-                            <p>Gausala,Kathmandu</p>
-                        </div>
-                    </div>
-                    <div class="contentone">
-                        <div class="contentimagecontent">
-                            <i class="fa fa-envelope"></i>
-                            <p>Email</p>
-                        </div>
-                        <div class="maincontent">
-                            <p>leosquad@analogueinc.com.np
-
-                            </p>
-                        </div>
-                    </div>
-                    <div class="contentone">
-                        <div class="contentimagecontent">
-                            <i class="fa fa-phone"></i>
-                            <p>Phone</p>
-                        </div>
-                        <div class="maincontent">
-                            <p>9802320803</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <img src="img/undraw_contact_us_15o2.svg">
-                    </div>
-                    <div class="col-lg-6">
-                        <form>
-                            <div class="form-row">
-                              <div class="form-group col-md-6">
-                             
-                                <input type="text" class="form-control" id="inputEmail4" placeholder="Your Name">
-                              </div>
-                              <div class="form-group col-md-6">
-                              
-                                <input type="email" class="form-control" id="inputPassword4" placeholder="Your Email">
-                              </div>
-                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Enter Your Message.."></textarea>
-                            </div>
-                         
-                            <button type="submit" class="btn btn-primary">SUBMIT ENQUIRY</button>
-                          </form>
-                    </div>
-                </div>
-            </div>
-        
-        </div>
+ 
 
         <div class="footer">
             <div class="container">
@@ -1031,6 +350,7 @@
     <script type="text/javascript" src="js/lunar.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
 
 <script>
@@ -1056,6 +376,10 @@
     $(".login_form").show(200);
     $(".signup_form").hide(200);
     });
+  </script>
+
+<script>
+    AOS.init();
   </script>
 
 <script>
@@ -1104,6 +428,10 @@
           })
     });
 
+    </script>
+
+     <script>
+	 $(".preloader").delay(3000).fadeOut('slow');
     </script>
 
 
