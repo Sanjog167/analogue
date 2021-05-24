@@ -1,4 +1,6 @@
-﻿
+﻿:root {
+	--wait-time: 3.5s;
+}
 
 body {
     font: 14px/22px "Raleway", Arial, Helvetica, sans-serif;
@@ -1645,19 +1647,19 @@ h3{
 .firstword{
   /* opacity: 0; */
   animation: left .7s forwards;
-  animation-delay: 1.3s;
+  animation-delay: calc(var(--wait-time) + 1.3s);
 }
 
 .secword{
   /* opacity: 0; */
   animation: right .7s forwards;
-  animation-delay: 1.3s;
+  animation-delay: calc(var(--wait-time) + 1.3s);
 }
 
 .first_content img{
   /* opacity: 0; */
   animation: scale 1s forwards;
-  animation-delay: 1.3s;
+  animation-delay: calc(var(--wait-time) + 1.3s);
   width: 410px;
 }
 
@@ -1697,14 +1699,14 @@ h3{
   top: 30%;
   opacity: 0;
   animation: reveal 1.2s forwards;
-  animation-delay: 1.3s;
+  animation-delay: calc(var(--wait-time) + 1.3s);
   width: 28%;
 }
 
 .smallimgs{
   opacity: 0;
   animation: reveal 1.2s forwards;
-  animation-delay: 1.3s;
+  animation-delay: calc(var(--wait-time) + 1.3s);
 }
 
 
@@ -1854,7 +1856,7 @@ h3{
 .dots{
   opacity: 0;
   animation: reveal 1.2s forwards;
-  animation-delay: 1.3s;
+  animation-delay: calc(var(--wait-time) + 1.3s);
 }
 
 
